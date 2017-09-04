@@ -94,3 +94,6 @@ fastlane/test_output
 fastlane/xcov_report
 .bitrise.secrets.yml
 .bundle/config
+
+*.xcodeproj/* 
+!*.xcodeproj/project.pbxproj
