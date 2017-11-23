@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D1E55F2CA5F08B30FD93CCE /* Pods_BlockSizeCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC6D29EA2DDCEDB7CE4A39A /* Pods_BlockSizeCalculator.framework */; };
+		C0258C7693A050256B0C71CD /* Pods_BlockSizeCalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55686D62DB7F637C01EC38C4 /* Pods_BlockSizeCalculatorTests.framework */; };
+		C287560C28AFD22345442B22 /* Pods_BlockSizeCalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D34E187BBFC410A1292B132 /* Pods_BlockSizeCalculatorUITests.framework */; };
 		FB29D9191F5D987000646220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB29D9181F5D987000646220 /* AppDelegate.swift */; };
 		FB29D91B1F5D987000646220 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB29D91A1F5D987000646220 /* FirstViewController.swift */; };
 		FB29D91D1F5D987000646220 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB29D91C1F5D987000646220 /* SecondViewController.swift */; };
@@ -35,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		103A9543E19B6128308B28D0 /* Pods-BlockSizeCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockSizeCalculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockSizeCalculator/Pods-BlockSizeCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		4D34E187BBFC410A1292B132 /* Pods_BlockSizeCalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockSizeCalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55686D62DB7F637C01EC38C4 /* Pods_BlockSizeCalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockSizeCalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74FFC31F9A5CBDBECEF5E3CE /* Pods-BlockSizeCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockSizeCalculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlockSizeCalculator/Pods-BlockSizeCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		98B07407C1428F3F4DBD0BC8 /* Pods-BlockSizeCalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockSizeCalculatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlockSizeCalculatorUITests/Pods-BlockSizeCalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7447504951B49FC74563E4D /* Pods-BlockSizeCalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockSizeCalculatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockSizeCalculatorUITests/Pods-BlockSizeCalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CBC6D29EA2DDCEDB7CE4A39A /* Pods_BlockSizeCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockSizeCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D120DEAD433B2B39FB17F5A8 /* Pods-BlockSizeCalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockSizeCalculatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockSizeCalculatorTests/Pods-BlockSizeCalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
 		FB29D9151F5D987000646220 /* BlockSizeCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockSizeCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB29D9181F5D987000646220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB29D91A1F5D987000646220 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		FB29D9361F5D987000646220 /* BlockSizeCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockSizeCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB29D93A1F5D987000646220 /* BlockSizeCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockSizeCalculatorUITests.swift; sourceTree = "<group>"; };
 		FB29D93C1F5D987000646220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB36B782B549AB04900C50D3 /* Pods-BlockSizeCalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockSizeCalculatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlockSizeCalculatorTests/Pods-BlockSizeCalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D1E55F2CA5F08B30FD93CCE /* Pods_BlockSizeCalculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0258C7693A050256B0C71CD /* Pods_BlockSizeCalculatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C287560C28AFD22345442B22 /* Pods_BlockSizeCalculatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A150896198BE887C5B717B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74FFC31F9A5CBDBECEF5E3CE /* Pods-BlockSizeCalculator.debug.xcconfig */,
+				103A9543E19B6128308B28D0 /* Pods-BlockSizeCalculator.release.xcconfig */,
+				FB36B782B549AB04900C50D3 /* Pods-BlockSizeCalculatorTests.debug.xcconfig */,
+				D120DEAD433B2B39FB17F5A8 /* Pods-BlockSizeCalculatorTests.release.xcconfig */,
+				98B07407C1428F3F4DBD0BC8 /* Pods-BlockSizeCalculatorUITests.debug.xcconfig */,
+				A7447504951B49FC74563E4D /* Pods-BlockSizeCalculatorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F56CEEAD20F093DB2D0D55BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBC6D29EA2DDCEDB7CE4A39A /* Pods_BlockSizeCalculator.framework */,
+				55686D62DB7F637C01EC38C4 /* Pods_BlockSizeCalculatorTests.framework */,
+				4D34E187BBFC410A1292B132 /* Pods_BlockSizeCalculatorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FB29D90C1F5D987000646220 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				FB29D92E1F5D987000646220 /* BlockSizeCalculatorTests */,
 				FB29D9391F5D987000646220 /* BlockSizeCalculatorUITests */,
 				FB29D9161F5D987000646220 /* Products */,
+				6A150896198BE887C5B717B8 /* Pods */,
+				F56CEEAD20F093DB2D0D55BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB29D93F1F5D987000646220 /* Build configuration list for PBXNativeTarget "BlockSizeCalculator" */;
 			buildPhases = (
+				9DAEEA9DA63531C333D6D197 /* [CP] Check Pods Manifest.lock */,
 				FB29D9111F5D987000646220 /* Sources */,
 				FB29D9121F5D987000646220 /* Frameworks */,
 				FB29D9131F5D987000646220 /* Resources */,
+				8C47E573F1042F64D23A3142 /* [CP] Embed Pods Frameworks */,
+				DA1880F78D0DE3D2AE779988 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB29D9421F5D987000646220 /* Build configuration list for PBXNativeTarget "BlockSizeCalculatorTests" */;
 			buildPhases = (
+				957A014A6FB2A348F0B89D23 /* [CP] Check Pods Manifest.lock */,
 				FB29D9271F5D987000646220 /* Sources */,
 				FB29D9281F5D987000646220 /* Frameworks */,
 				FB29D9291F5D987000646220 /* Resources */,
+				959CDE0FE847571081D68CCD /* [CP] Embed Pods Frameworks */,
+				7E9119021DB3A474C22BF3BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB29D9451F5D987000646220 /* Build configuration list for PBXNativeTarget "BlockSizeCalculatorUITests" */;
 			buildPhases = (
+				56D180ED967A04F6F5EC82DC /* [CP] Check Pods Manifest.lock */,
 				FB29D9321F5D987000646220 /* Sources */,
 				FB29D9331F5D987000646220 /* Frameworks */,
 				FB29D9341F5D987000646220 /* Resources */,
+				DA19EDDDFDDECC1CF8179F8B /* [CP] Embed Pods Frameworks */,
+				0EF9639E94107C38E2D6B807 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +308,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EF9639E94107C38E2D6B807 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlockSizeCalculatorUITests/Pods-BlockSizeCalculatorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56D180ED967A04F6F5EC82DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockSizeCalculatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E9119021DB3A474C22BF3BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlockSizeCalculatorTests/Pods-BlockSizeCalculatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C47E573F1042F64D23A3142 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlockSizeCalculator/Pods-BlockSizeCalculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		957A014A6FB2A348F0B89D23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockSizeCalculatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		959CDE0FE847571081D68CCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlockSizeCalculatorTests/Pods-BlockSizeCalculatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DAEEA9DA63531C333D6D197 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockSizeCalculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA1880F78D0DE3D2AE779988 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlockSizeCalculator/Pods-BlockSizeCalculator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA19EDDDFDDECC1CF8179F8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlockSizeCalculatorUITests/Pods-BlockSizeCalculatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FB29D9111F5D987000646220 /* Sources */ = {
@@ -419,6 +615,7 @@
 		};
 		FB29D9401F5D987000646220 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74FFC31F9A5CBDBECEF5E3CE /* Pods-BlockSizeCalculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 847UKKJGYC;
@@ -432,6 +629,7 @@
 		};
 		FB29D9411F5D987000646220 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 103A9543E19B6128308B28D0 /* Pods-BlockSizeCalculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 847UKKJGYC;
@@ -445,6 +643,7 @@
 		};
 		FB29D9431F5D987000646220 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB36B782B549AB04900C50D3 /* Pods-BlockSizeCalculatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +659,7 @@
 		};
 		FB29D9441F5D987000646220 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D120DEAD433B2B39FB17F5A8 /* Pods-BlockSizeCalculatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +675,7 @@
 		};
 		FB29D9461F5D987000646220 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98B07407C1428F3F4DBD0BC8 /* Pods-BlockSizeCalculatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 847UKKJGYC;
@@ -489,6 +690,7 @@
 		};
 		FB29D9471F5D987000646220 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7447504951B49FC74563E4D /* Pods-BlockSizeCalculatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 847UKKJGYC;
